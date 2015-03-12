@@ -27,21 +27,21 @@
 			
 		</template>
 
-		<template id="website.start" name="Free ERP: Start now" page="True" priority="29">
+		<template id="website.start" name="Register" page="True" priority="29">
 			<t t-call="website.layout">
 				<div id="wrap" class="oe_structure oe_empty">
 					<section class="odoo_secondary_A">
 						<div class="container">
 							<div class="row">
 								<div class="text-center mt64 mb92">
-									<h2>Subscribe and test Odoo apps now!</h2>
+									<h2>Register and start trading today!</h2>
 									
 									<div class="odoo_call_action mt16">
 										<div class="odoo_call_action_bg">
 											<form role="form" class="form-inline">
 												<div class="pull-right">
 													<button type="submit" id="create_instance" class="btn btn-info">
-														<strong>Try Now!</strong> <span class="hidden-xs">It's Free</span>.
+														<strong>Start Trading</strong> 
 													</button>
 												</div>
 												
@@ -52,7 +52,7 @@
 													</div>                
 												</form>
 											</div>
-											<p class="mt4 text-muted" id="cta_footer">No credit card required. Instant Access. Open Source.
+											<p class="mt4 text-muted" id="cta_footer">Register your domain name to give your company a unique presence.
 											</p>
 										</div>
 
