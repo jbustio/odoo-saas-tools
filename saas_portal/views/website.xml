@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-
-
 		<template id="theme" inherit_id="website.theme" name="saas portal assets">
 			<xpath expr="//link[@href='/website/static/src/css/website.css']" position="before">
 				<link rel='stylesheet' href='/saas_portal/static/src/css/odoo.css' t-ignore="true"/>
@@ -38,17 +36,13 @@
 									<div class="odoo_call_action mt16">
 										<div class="odoo_call_action_bg">
 											<form role="form" class="form-inline">
-												<div class="pull-right">
-													<button type="submit" id="create_instance" class="btn btn-info">
-														<strong>Start Trading</strong> 
-													</button>
-												</div>
-												
 												<div class="input-group">
 													<input data-placement="bottom" name="odoo_db_name" data-trigger="manual" type="text" placeholder="your-company-name" class="form-control odoo_db_name" data-original-title="" title=""/>
 														<span class="input-group-addon">.<t t-raw="base_saas_domain"/></span>
-
-													</div>                
+													</div>     
+													<button type="submit" id="create_instance" class="btn btn-info">
+														<strong>Start Trading</strong> 
+													</button>           
 												</form>
 											</div>
 											<p class="mt4 text-muted" id="cta_footer">Register your domain name to give your company a unique presence.
